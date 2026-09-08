@@ -1,8 +1,7 @@
 from flask import Flask, request, jsonify
 import time
 
-app = Flask(_name_)
-
+app = Flask(__name__)
 latest_signal = {
     "action": "",
     "id": "",
